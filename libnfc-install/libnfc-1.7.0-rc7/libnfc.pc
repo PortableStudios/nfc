@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: libnfc
+Description: Near Field Communication (NFC) library
+Version: 1.7.0-rc7
+Requires:  libusb
+Libs: -L${libdir} -lnfc
+Cflags: -I${includedir}

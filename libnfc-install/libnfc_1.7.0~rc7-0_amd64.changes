@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Fri, 5 Apr 2013 12:42:42 +0100
+Source: libnfc
+Binary: libnfc4 libnfc-dev libnfc4-dbg libnfc-bin libnfc-examples libnfc-pn53x-examples
+Architecture: amd64
+Version: 1.7.0~rc7-0
+Distribution: unstable
+Urgency: low
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Changed-By: yobibe <yobibe@gmail.com>
+Description: 
+ libnfc-bin - Near Field Communication (NFC) binaries
+ libnfc-dev - Near Field Communication (NFC) library (development files)
+ libnfc-examples - Near Field Communication (NFC) examples
+ libnfc-pn53x-examples - Near Field Communication (NFC) examples for PN53x chips only
+ libnfc4    - Near Field Communication (NFC) library
+ libnfc4-dbg - Near Field Communication (NFC) library (debugging information)
+Changes: 
+ libnfc (1.7.0~rc7-0) unstable; urgency=low
+ .
+   * New upstream release
+Checksums-Sha1: 
+ d659fa8e840385a1bdac7f5e7ebbfa8dd6e31d01 71656 libnfc4_1.7.0~rc7-0_amd64.deb
+ 311bb6f9dc82e0d7c5c032b695de3bb6134a8cac 94012 libnfc-dev_1.7.0~rc7-0_amd64.deb
+ d9c2184a1e5ffc461843be651c33e27b1bde3952 159616 libnfc4-dbg_1.7.0~rc7-0_amd64.deb
+ b186f4acb65b4f2bd209a60e1a22581be576203f 48626 libnfc-bin_1.7.0~rc7-0_amd64.deb
+ 25ed52f08ec8b4d65a1d63731641e140d12e37ca 45228 libnfc-examples_1.7.0~rc7-0_amd64.deb
+ 18b5bb12ccd8f5f275d9f67a5844172f17aa0eaa 26214 libnfc-pn53x-examples_1.7.0~rc7-0_amd64.deb
+Checksums-Sha256: 
+ 6e779343cd0bf2a4233a9d3b27202bd28f6bd07275d013ace11e524a91128640 71656 libnfc4_1.7.0~rc7-0_amd64.deb
+ 0b59ca9904ef0f4d13f7e361f9f3c1406dd998c44f299aaf5948f5e509e8a1e1 94012 libnfc-dev_1.7.0~rc7-0_amd64.deb
+ ab6e3ba1a1c729d30f720327789e2e9591cbd4dbb49a493e97361d63dff13a4d 159616 libnfc4-dbg_1.7.0~rc7-0_amd64.deb
+ 2dfcfe9377489b4e4527c3d53c041c6a057c52c02a0765fb1b1e4cf43e7d3cba 48626 libnfc-bin_1.7.0~rc7-0_amd64.deb
+ 5bd2f334663499944a85146837ae3a462bcf602b91871a46f260e54078981df1 45228 libnfc-examples_1.7.0~rc7-0_amd64.deb
+ e2dfe761502ef2a1eaa6551e4ce989a712eef2d1f50238a0b263b6b638735cae 26214 libnfc-pn53x-examples_1.7.0~rc7-0_amd64.deb
+Files: 
+ 4a95d77f2c0574e8f06498fbc45bb3da 71656 libs extra libnfc4_1.7.0~rc7-0_amd64.deb
+ ec10863a3b061c7fbd041820cb5a024d 94012 libdevel extra libnfc-dev_1.7.0~rc7-0_amd64.deb
+ ccafd6c1a8d45170985c8ac889ff9c38 159616 debug extra libnfc4-dbg_1.7.0~rc7-0_amd64.deb
+ c65db1226fdbd605fcdf32f016446a84 48626 utils extra libnfc-bin_1.7.0~rc7-0_amd64.deb
+ 670a16ff8272c250e5211dcd6b99b8b5 45228 utils extra libnfc-examples_1.7.0~rc7-0_amd64.deb
+ ce11446de514586035e6347c1b59cd84 26214 utils extra libnfc-pn53x-examples_1.7.0~rc7-0_amd64.deb
